@@ -4,25 +4,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Centering the grid vertically and horizontally */
+    height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Light background color */
+    background-color: #f0f0f0; 
 }
 
 .holder {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    grid-template-rows: repeat(2, 1fr);    /* Two equal rows */
-    width: 200px;  /* Total width of the grid */
-    height: 200px; /* Total height of the grid */
-    gap: 5px;      /* Optional: Space between grid items */
+    grid-template-columns: 100px 100px; 
+    grid-template-rows: 100px 100px;   
+    width: 200px;  
+    height: 200px; 
+    gap: 5px;      
 }
 
 .item {
-    background-color: #4CAF50; /* Green background for items */
-    color: white;               /* White text color */
-    display: flex;              /* Centering text inside the item */
-    justify-content: center;    /* Center horizontally */
-    align-items: center;        /* Center vertically */
-    font-size: 24px;           /* Font size for the text */
+    background-color: #4CAF50; 
+    color: white;               
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    font-size: 24px;           
 }
